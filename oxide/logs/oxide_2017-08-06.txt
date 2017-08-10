@@ -1,0 +1,111 @@
+00:46 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+00:46 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+00:46 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+00:46 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+00:46 [Info] [LootChests] Cleaning up spawned objects...
+00:46 [Info] [LootChests] Done
+00:46 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+00:46 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+00:46 [Info] [Meteors] Destroying meteors
+00:46 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+00:46 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+00:46 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+00:46 [Info] Unloaded plugin Stacksize v1.2.2 by Noviets
+00:46 [Info] Loading Oxide Core v2.0.3393...
+00:46 [Info] Loading extensions...
+00:46 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+00:46 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+00:46 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+00:46 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+00:46 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+00:46 [Info] Using Covalence provider for game 'Hurtworld'
+00:46 [Info] Loading plugins...
+00:46 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+00:46 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+00:46 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage, SpawnConfig and Stacksize were compiled successfully in 2137ms
+00:46 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+00:46 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+00:46 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+00:46 [Info] Loaded plugin Kits v1.0.4 by Reneb
+00:46 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+00:46 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+00:46 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+00:46 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+00:46 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+00:46 [Info] Loaded plugin Stacksize v1.2.2 by Noviets
+00:46 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+00:46 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+03:14 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+03:14 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+03:14 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+03:14 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+03:14 [Info] [LootChests] Cleaning up spawned objects...
+03:14 [Info] [LootChests] Done
+03:14 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+03:14 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+03:14 [Info] [Meteors] Destroying meteors
+03:14 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+03:14 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+03:14 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+03:14 [Info] Unloaded plugin Stacksize v1.2.2 by Noviets
+13:19 [Info] Loading Oxide Core v2.0.3393...
+13:19 [Info] Loading extensions...
+13:19 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+13:19 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+13:19 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+13:19 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+13:19 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+13:19 [Info] Using Covalence provider for game 'Hurtworld'
+13:19 [Info] Loading plugins...
+13:19 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+13:19 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+13:19 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage, SpawnConfig and Stacksize were compiled successfully in 2282ms
+13:19 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+13:19 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+13:19 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+13:19 [Info] Loaded plugin Kits v1.0.4 by Reneb
+13:19 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+13:19 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+13:19 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+13:19 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+13:19 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+13:19 [Info] Loaded plugin Stacksize v1.2.2 by Noviets
+13:19 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+13:19 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+17:28 [Info] EasyStakes was compiled successfully in 2051ms
+17:28 [Info] Loaded plugin EasyStakes v1.0.9 by Noviets
+17:45 [Info] [HWClans] 123: OPA
+17:45 [Info] [HWClans] 123: ALGUEM
+17:46 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: eu
+17:50 [Info] [HWClans] 123: voltei
+17:50 [Info] [HWClans] 123: server e vanila?
+17:51 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: não, tem uns plugins
+17:51 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: clan, kit
+17:51 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: meteoro
+17:51 [Info] [HWClans] 123: qual kit?
+17:52 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: sempre que morre vc já vem com a roupa e as ferramentas
+17:52 [Info] [HWClans] 123: vou me matar kkk
+17:52 [Info] [HWClans] 123: ae sim
+17:52 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: o admin é do meu clan, ele vai add kit de flecha
+17:53 [Info] [HWClans] 123: server e novo?
+17:53 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: pra vc pegar algumas vezes ao dia
+17:53 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: sim sim, começou ontem
+17:53 [Info] [HWClans] 123: vc conhece o tio blinder?
+17:54 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: não..
+17:54 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: vou sair aqui, volto em 30 min
+17:54 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: té mais
+17:54 [Info] [HWClans] 123: ok

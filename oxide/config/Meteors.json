@@ -1,0 +1,13 @@
+{
+  "Settings": {
+    "Meteors": {
+      "MaximumLootPlayersCount": "60",
+      "MeteorInterval": "60",
+      "MeteorsDamageBuildings": "1",
+      "MeteorsEarlyAnnouncementTime": "5",
+      "MeteorsEnabled": "1",
+      "MeteorsHeatDuration": "5",
+      "MeteorsLootFactor": "1"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ChestSpawnCount": 25,
+  "DestroyOnEmpty": true,
+  "ItemsPerChest": 1,
+  "SecondsForSpawn": 7200,
+  "SecondsTillDestroy": 1800,
+  "ShowDespawnMessage": true,
+  "ShowSpawnMessage": true,
+  "SpawnRadius": 3000.0,
+  "StartPoints": [
+    "-2800, 200, -1000"
+  ],
+  "UseWeaponsCrateMod": false
+}

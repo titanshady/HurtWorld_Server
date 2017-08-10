@@ -1,0 +1,9 @@
+{
+  "Misc - No Permission": "You don't have the permission to use this command.",
+  "Misc - Syntax": "Syntax: {syntax}",
+  "Misc - Player Not Found": "The player can't be found.",
+  "Misc - Multiple Players Found": "Multiple matching players found:\n{players}",
+  "Message - From": "[Private Message] {player}: {message}",
+  "Message - To": "[Private Message] To {player}: {message}",
+  "Message - No Reply": "You have no one to reply."
+}

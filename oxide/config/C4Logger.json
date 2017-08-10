@@ -1,0 +1,20 @@
+{
+  "Settings": {
+    "Filters": {
+      "Defuse": {
+        "Enabled": true,
+        "Max Time (Seconds)": 30
+      },
+      "Duplicate": {
+        "Enabled": true,
+        "Max Distance": 6,
+        "Max Time (Seconds)": 3
+      },
+      "Self Harm": {
+        "Enabled": true
+      }
+    },
+    "Max Age (Days)": 7.0,
+    "Players Near Radius": 100.0
+  }
+}

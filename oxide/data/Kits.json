@@ -1,0 +1,188 @@
+{
+  "Kits": {
+    "autokit": {
+      "name": "autokit",
+      "description": null,
+      "max": 0,
+      "cooldown": 0.0,
+      "authlevel": 1,
+      "hide": true,
+      "permission": null,
+      "items": [
+        {
+          "itemid": 89,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "itemid": 139,
+          "amount": 1,
+          "slot": 1
+        },
+        {
+          "itemid": 47,
+          "amount": 1,
+          "slot": 2
+        },
+        {
+          "itemid": 128,
+          "amount": 1,
+          "slot": 3
+        },
+        {
+          "itemid": 141,
+          "amount": 1,
+          "slot": 9
+        },
+        {
+          "itemid": 140,
+          "amount": 1,
+          "slot": 10
+        },
+        {
+          "itemid": 119,
+          "amount": 1,
+          "slot": 11
+        },
+        {
+          "itemid": 48,
+          "amount": 20,
+          "slot": 16
+        }
+      ]
+    },
+    "admin": {
+      "name": "Admin",
+      "description": null,
+      "max": 0,
+      "cooldown": 0.0,
+      "authlevel": 1,
+      "hide": true,
+      "permission": null,
+      "items": [
+        {
+          "itemid": 78,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "itemid": 30,
+          "amount": 1,
+          "slot": 1
+        },
+        {
+          "itemid": 47,
+          "amount": 1,
+          "slot": 2
+        },
+        {
+          "itemid": 102,
+          "amount": 1,
+          "slot": 8
+        },
+        {
+          "itemid": 109,
+          "amount": 1,
+          "slot": 9
+        },
+        {
+          "itemid": 94,
+          "amount": 1,
+          "slot": 10
+        },
+        {
+          "itemid": 96,
+          "amount": 1,
+          "slot": 11
+        },
+        {
+          "itemid": 88,
+          "amount": 1,
+          "slot": 14
+        },
+        {
+          "itemid": 284,
+          "amount": 1,
+          "slot": 15
+        },
+        {
+          "itemid": 48,
+          "amount": 50,
+          "slot": 16
+        }
+      ]
+    },
+    "inicial": {
+      "name": "Inicial",
+      "description": "Mesmo Kit que ganha ao morrer, CoolDown: 2h",
+      "max": 1,
+      "cooldown": 7200.0,
+      "authlevel": 0,
+      "hide": false,
+      "permission": null,
+      "items": [
+        {
+          "itemid": 89,
+          "amount": 1,
+          "slot": 16
+        },
+        {
+          "itemid": 139,
+          "amount": 1,
+          "slot": 17
+        },
+        {
+          "itemid": 47,
+          "amount": 1,
+          "slot": 18
+        },
+        {
+          "itemid": 128,
+          "amount": 1,
+          "slot": 19
+        },
+        {
+          "itemid": 141,
+          "amount": 1,
+          "slot": 20
+        },
+        {
+          "itemid": 140,
+          "amount": 1,
+          "slot": 21
+        },
+        {
+          "itemid": 119,
+          "amount": 1,
+          "slot": 22
+        },
+        {
+          "itemid": 48,
+          "amount": 20,
+          "slot": 23
+        }
+      ]
+    },
+    "flechas": {
+      "name": "Flechas",
+      "description": "Kit com 100 Flechas, Cooldown: 1h",
+      "max": 1,
+      "cooldown": 3600.0,
+      "authlevel": 0,
+      "hide": false,
+      "permission": null,
+      "items": [
+        {
+          "itemid": 48,
+          "amount": 50,
+          "slot": 16
+        },
+        {
+          "itemid": 48,
+          "amount": 50,
+          "slot": 17
+        }
+      ]
+    }
+  }
+}

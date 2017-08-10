@@ -1,0 +1,1624 @@
+14:26 [Info] Loading Oxide Core v2.0.3393...
+14:26 [Info] Loading extensions...
+14:26 [Info] Downloading CSharpCompiler.exe for .cs (C#) plugin compilation
+14:26 [Info] Download of CSharpCompiler.exe for completed successfully
+14:26 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+14:26 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+14:26 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+14:26 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+14:26 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+14:26 [Info] Using Covalence provider for game 'Hurtworld'
+14:26 [Info] Loading plugins...
+14:26 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+14:26 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+14:29 [Info] Loading Oxide Core v2.0.3393...
+14:29 [Info] Loading extensions...
+14:29 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+14:29 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+14:29 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+14:29 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+14:29 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+14:29 [Info] Using Covalence provider for game 'Hurtworld'
+14:29 [Info] Loading plugins...
+14:29 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+14:29 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+14:31 [Info] Loading Oxide Core v2.0.3393...
+14:31 [Info] Loading extensions...
+14:31 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+14:31 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+14:31 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+14:31 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+14:31 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+14:31 [Info] Using Covalence provider for game 'Hurtworld'
+14:31 [Info] Loading plugins...
+14:31 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+14:31 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+14:31 [Info] C4Logger, HWClans, Kits, LootConfig, Meteors and SpawnConfig were compiled successfully in 1908ms
+14:31 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+14:31 [Warning] [C4Logger] No config file found, generating a new one.
+14:31 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+14:31 [Warning] [HWClans] No config file found, generating a new one.
+14:31 [Info] Loaded plugin Kits v1.0.4 by Reneb
+14:31 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+14:31 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+14:31 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+14:31 [Info] [LootConfig] Incorrect config version(0/0)
+14:31 [Info] [LootConfig] Created new config
+14:31 [Info] [SpawnConfig] Incorrect config version(0/0)
+14:31 [Info] [SpawnConfig] Created new config
+14:31 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+14:31 [Error] Failed to call hook 'OnServerInitialized' on plugin 'SpawnConfig v1.0.4' (NullReferenceException: Object reference not set to an instance of an object)
+14:31 [Stacktrace]   at Oxide.Plugins.SpawnConfig.UpdateSpawns () [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.SpawnConfig.OnServerInitialized () [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.SpawnConfig.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+14:38 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+14:38 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+14:38 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+14:38 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+14:38 [Info] [Meteors] Destroying meteors
+14:38 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+14:38 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+14:38 [Info] Loading Oxide Core v2.0.3393...
+14:38 [Info] Loading extensions...
+14:38 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+14:38 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+14:38 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+14:38 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+14:38 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+14:38 [Info] Using Covalence provider for game 'Hurtworld'
+14:38 [Info] Loading plugins...
+14:38 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+14:38 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+14:38 [Info] C4Logger, HWClans, Kits, LootConfig, Meteors and SpawnConfig were compiled successfully in 1942ms
+14:38 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+14:38 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+14:38 [Info] Loaded plugin Kits v1.0.4 by Reneb
+14:38 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+14:38 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+14:38 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+14:39 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+14:52 [Info] [LootConfig] 
+None
+OwnershipStake
+	100.0 % 2x Amber
+GroundLog
+	100.0 %
+		100.0 %
+			100.0 % 4x Wood (Rnd 6)
+		100.0 %
+			50.0 % (Once)
+				50.0 % 1x Bark (Rnd 2)
+		100.0 %
+			5.0 % 1x Amber (Once)
+Driftwood
+	100.0 %
+		100.0 %
+			100.0 % 1x Wood
+		100.0 %
+			6.7 % 2x Coal (Once)
+GroundFlint
+	100.0 %
+		49.7 % 1x Flint (Rnd 2) (Once)
+		99.4 % (Once)
+			49.7 % 1x Stone (Rnd 2) (Once)
+		100.0 % 1x Magnet (Once)
+IronRock
+	100.0 %
+		100.0 %
+			100.0 % 2x IronOre (Rnd 3)
+			100.0 % 2x Stone (Rnd 5)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			1.3 % 1x DiamondDust (Once)
+Metal2
+	100.0 %
+		100.0 %
+			100.0 % 2x Metal2Ore (Rnd 2)
+			100.0 % 1x Stone (Rnd 3)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			1.3 % 1x RoughDiamond (Once)
+Metal3
+	100.0 %
+		100.0 %
+			100.0 % 3x Metal3Ore (Rnd 2)
+			100.0 % 1x Stone (Rnd 3)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			1.3 % 1x RoughDiamond (Once)
+Metal4
+	100.0 %
+		100.0 %
+			100.0 % 1x Metal4Ore (Rnd 3)
+			100.0 % 1x Stone (Rnd 3)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			1.3 % 1x RoughDiamond (Once)
+FlintRock
+	100.0 %
+		100.0 % 2x Flint (Rnd 3)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			100.0 % 1x Stone (Rnd 3) (Once)
+Limestone
+	100.0 %
+		100.0 % 3x LimeStone (Rnd 10)
+		100.0 % 1x Clay (Rnd 3)
+		100.0 %
+			5.0 % 1x Amber (Once)
+ClayBlock
+	100.0 %
+		100.0 % 3x Clay (Rnd 10)
+		100.0 %
+			5.0 % 1x Amber (Once)
+Coal
+	100.0 %
+		100.0 % 2x Coal (Rnd 5)
+		100.0 %
+			100.0 % 1x Stone (Rnd 3) (Once)
+		100.0 %
+			5.0 % 1x Amber (Once)
+		100.0 %
+			1.3 % 1x DiamondDust (Once)
+RedRock
+	100.0 %
+		100.0 % 1x Ruby
+TealRock
+	100.0 %
+		100.0 % 1x Amber
+Owrong
+	100.0 %
+		100.0 % 1x Owrong
+		100.0 %
+			50.0 % 2x OwrongSeeds (Rnd 1) (Once)
+Shigi
+	100.0 %
+		39.7 % 1x RawSteak (Once)
+		79.4 % (Once)
+			79.4 % 1x Leather (Rnd 3)
+		99.2 % (Once)
+			99.2 % 1x AnimalTendon
+		100.0 % 1x ShigiMask (Once)
+ForestShigi
+	100.0 %
+		19.8 % 1x RawSteak (Rnd 1) (Once)
+		59.5 % (Once)
+			59.5 % 2x Leather (Rnd 3)
+		99.2 % (Once)
+			99.2 % 1x AnimalTendon
+		100.0 % 1x ForrestShigiMask (Once)
+Shepherd
+	100.0 %
+		25.0 % 2x RawSteak
+		50.0 %
+			38.5 % 5x AnimalFat (Once)
+			50.0 % 10x AnimalFat (Once)
+		75.0 %
+			57.7 % 5x Leather (Once)
+			75.0 % 10x Leather (Once)
+		100.0 %
+			76.9 % 1x Ruby (Once)
+			100.0 % 5x Leather (Once)
+Rafaga
+	100.0 %
+		25.0 % 2x RawSteak
+		50.0 %
+			38.5 % 2x AnimalFat (Once)
+			50.0 % 1x AnimalFat (Once)
+		75.0 %
+			57.7 % 4x Leather (Once)
+			75.0 % 7x Leather (Once)
+		100.0 %
+			100.0 % 5x Leather (Once)
+Tokar
+	100.0 %
+		61.7 % (Once)
+			47.5 % 3x Leather (Once)
+			61.7 % 8x Leather (Once)
+		92.6 % (Once)
+			92.6 % 1x AnimalTendon
+		97.5 % (Once)
+			97.5 % 1x PoisonSac
+		100.0 % 1x TokarMask (Once)
+TokarAlbino
+	100.0 %
+		100.0 % 1x RawSteak
+		100.0 % 5x AnimalFat (Rnd 5)
+		100.0 % 5x Amber (Rnd 10)
+Bor
+	100.0 %
+		20.0 % 1x RawSteak (Once)
+		50.0 % (Once)
+			50.0 % 3x AnimalFat (Rnd 5)
+		80.0 % (Once)
+			80.0 % 1x Leather (Rnd 5)
+		100.0 % (Once)
+			0.5 % 1x BorMask (Once)
+AutomaticDrill
+	100.0 %
+		11.4 % 1x IronOre (Once)
+		68.6 % 1x Stone (Once)
+		71.4 % 1x Metal2Ore (Once)
+		100.0 % 1x Coal (Once)
+AutomaticDrillGreen
+	100.0 %
+		16.0 % 1x IronOre (Once)
+		96.0 % 1x Stone (Once)
+		100.0 % 1x Metal3Ore (Once)
+AutomaticDrillBlue
+	100.0 %
+		16.0 % 1x IronOre (Once)
+		96.0 % 1x Stone (Once)
+		100.0 % 1x Metal4Ore (Once)
+PitcherPlant
+	100.0 %
+		100.0 % 1x CrudeCoolant (Rnd 2)
+		100.0 %
+			50.0 % 2x PitcherPlantSeeds (Rnd 1) (Once)
+SucculentPlant
+	100.0 %
+		100.0 % 1x Sunscreen (Rnd 2)
+		100.0 %
+			50.0 % 2x SucculentSeeds (Rnd 1) (Once)
+OilDrill
+	100.0 %
+		100.0 % 1x Gasoline
+ExplodableRock1
+	100.0 %
+		100.0 %
+			8.2 % 1x IronOre (Rnd 9) (Once)
+			49.2 % 1x Stone (Rnd 9) (Once)
+			69.7 % 1x Coal (Rnd 9) (Once)
+			73.0 % 1x Metal2Ore (Rnd 9) (Once)
+			76.2 % 1x Metal3Ore (Rnd 9) (Once)
+			79.5 % 1x Metal4Ore (Rnd 9) (Once)
+			100.0 % 2x Amber (Rnd 5) (Once)
+		100.0 %
+			2.5 % 1x RoughDiamond (Once)
+RoachChassis
+	100.0 %
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x RoachTripleDoors (Once)
+				33.3 % 1x SharkWeekSide (Once)
+				50.0 % 1x ChaserSide (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x RoachTripleDoors (Once)
+				33.3 % 1x SharkWeekSide (Once)
+				50.0 % 1x ChaserSide (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x RoachFrontSeat (Once)
+				33.3 % 1x SharkWeekFront (Once)
+				50.0 % 1x ChaserFront (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x RoachSkullBar (Once)
+				33.3 % 1x SharkWeekBumper (Once)
+				50.0 % 1x ChaserBumper (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x RoachRoofLights (Once)
+				33.3 % 1x SharkWeekRoof (Once)
+				50.0 % 1x ChaserRoof (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x Roach44GalArmor (Once)
+				33.3 % 1x SharkWeekBack (Once)
+				50.0 % 1x ChaserBack (Once)
+GoatChassis
+	100.0 %
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x GoatCowlingFront (Once)
+				33.3 % 1x GoatJudgeFront (Once)
+				50.0 % 1x GoatStasherFront (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x GoatRacerBackpanel (Once)
+				33.3 % 1x GoatJudgeBack (Once)
+				50.0 % 1x GoatStasherBack (Once)
+KangaChassis
+	100.0 %
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x KangaCrowFrontPanel (Once)
+				33.3 % 1x KangaEarwigFrontPanel (Once)
+				50.0 % 1x KangaRaiderFrontPanel (Once)
+		100.0 %
+			50.0 % (Once)
+				16.7 % 1x KangaCrowRearPanel (Once)
+				33.3 % 1x KangaEarwigRearPanel (Once)
+				50.0 % 1x KangaRaiderRearPanel (Once)
+ParrotTokar
+	100.0 %
+		32.5 % (Once)
+			25.0 % 3x Leather (Once)
+			32.5 % 8x Leather (Once)
+		48.7 % 2x AnimalTendon (Once)
+		64.9 % 1x Feather1 (Once)
+		65.6 % 1x TokarParrotMask (Once)
+		98.1 % 1x TokarAcid (Once)
+		99.7 % (Once)
+			5.5 % 2x Roach1986PaintMask (Once)
+			11.1 % 2x RoachDefaultPaintMask (Once)
+			16.6 % 2x RoachDigiCamoMask (Once)
+			22.2 % 2x RoachDoubleStripeMask (Once)
+			27.7 % 2x RoachEyesMask (Once)
+			33.2 % 2x RoachGraffMask (Once)
+			38.8 % 2x GoatFlamesMask (Once)
+			44.3 % 2x GoatSideStripeMask (Once)
+			49.8 % 2x GoatSkullMask (Once)
+			55.4 % 2x GoatCamoMask (Once)
+			60.9 % 2x GoatFlatMask (Once)
+			66.5 % 2x GoatTwinStripesMask (Once)
+			72.0 % 2x GoatMazeMask (Once)
+			77.5 % 2x KangaAngelicaMask (Once)
+			83.1 % 2x KangaGrade80Mask (Once)
+			88.6 % 2x KangaRockettoMask (Once)
+			94.1 % 2x KangaEvaMask (Once)
+			99.7 % 2x KangaZebraTechMask (Once)
+		100.0 % (Once)
+			2.7 % 1x Paint001 (Once)
+			5.4 % 1x Paint002 (Once)
+			8.1 % 1x Paint003 (Once)
+			10.8 % 1x Paint004 (Once)
+			13.5 % 1x Paint005 (Once)
+			16.2 % 1x Paint006 (Once)
+			18.9 % 1x Paint007 (Once)
+			21.6 % 1x Paint008 (Once)
+			24.3 % 1x Paint009 (Once)
+			27.0 % 1x Paint010 (Once)
+			29.7 % 1x Paint011 (Once)
+			32.4 % 1x Paint012 (Once)
+			35.1 % 1x Paint013 (Once)
+			37.8 % 1x Paint014 (Once)
+			40.5 % 1x Paint015 (Once)
+			43.2 % 1x Paint016 (Once)
+			45.9 % 1x Paint017 (Once)
+			48.6 % 1x Paint018 (Once)
+			51.4 % 1x Paint019 (Once)
+			54.1 % 1x Paint020 (Once)
+			56.8 % 1x Paint021 (Once)
+			59.5 % 1x Paint022 (Once)
+			62.2 % 1x Paint023 (Once)
+			64.9 % 1x Paint024 (Once)
+			67.6 % 1x Paint025 (Once)
+			70.3 % 1x Paint026 (Once)
+			73.0 % 1x Paint027 (Once)
+			75.7 % 1x Paint028 (Once)
+			78.4 % 1x Paint029 (Once)
+			81.1 % 1x Paint030 (Once)
+			83.8 % 1x Paint031 (Once)
+			86.5 % 1x Paint032 (Once)
+			89.2 % 1x Paint033 (Once)
+			91.9 % 1x Paint034 (Once)
+			94.6 % 1x Paint035 (Once)
+			97.3 % 1x Paint036 (Once)
+			100.0 % 1x Paint037 (Once)
+BlueTokar
+	100.0 %
+		32.6 % (Once)
+			25.1 % 3x Leather (Once)
+			32.6 % 8x Leather (Once)
+		48.9 % (Once)
+			48.9 % 1x AnimalTendon
+		65.1 % 1x Feather2 (Once)
+		65.8 % 1x TokarBlueMask (Once)
+		98.4 % 1x TokarAcid (Once)
+		100.0 % (Once)
+			5.6 % 2x Roach1986PaintMask (Once)
+			11.1 % 2x RoachDefaultPaintMask (Once)
+			16.7 % 2x RoachDigiCamoMask (Once)
+			22.2 % 2x RoachDoubleStripeMask (Once)
+			27.8 % 2x RoachEyesMask (Once)
+			33.3 % 2x RoachGraffMask (Once)
+			38.9 % 2x GoatFlamesMask (Once)
+			44.4 % 2x GoatSideStripeMask (Once)
+			50.0 % 2x GoatSkullMask (Once)
+			55.6 % 2x GoatCamoMask (Once)
+			61.1 % 2x GoatFlatMask (Once)
+			66.7 % 2x GoatTwinStripesMask (Once)
+			72.2 % 2x GoatMazeMask (Once)
+			77.8 % 2x KangaAngelicaMask (Once)
+			83.3 % 2x KangaGrade80Mask (Once)
+			88.9 % 2x KangaRockettoMask (Once)
+			94.4 % 2x KangaEvaMask (Once)
+			100.0 % 2x KangaZebraTechMask (Once)
+Yeti
+	100.0 %
+		63.7 % (Once)
+			49.0 % 3x ArcticPelt (Once)
+			63.7 % 8x ArcticPelt (Once)
+		95.5 % (Once)
+			95.5 % 2x AnimalFat
+		96.8 % 1x YetiMask (Once)
+		100.0 % (Once)
+			5.6 % 2x Roach1986PaintMask (Once)
+			11.1 % 2x RoachDefaultPaintMask (Once)
+			16.7 % 2x RoachDigiCamoMask (Once)
+			22.2 % 2x RoachDoubleStripeMask (Once)
+			27.8 % 2x RoachEyesMask (Once)
+			33.3 % 2x RoachGraffMask (Once)
+			38.9 % 2x GoatFlamesMask (Once)
+			44.4 % 2x GoatSideStripeMask (Once)
+			50.0 % 2x GoatSkullMask (Once)
+			55.6 % 2x GoatCamoMask (Once)
+			61.1 % 2x GoatFlatMask (Once)
+			66.7 % 2x GoatTwinStripesMask (Once)
+			72.2 % 2x GoatMazeMask (Once)
+			77.8 % 2x KangaAngelicaMask (Once)
+			83.3 % 2x KangaGrade80Mask (Once)
+			88.9 % 2x KangaRockettoMask (Once)
+			94.4 % 2x KangaEvaMask (Once)
+			100.0 % 2x KangaZebraTechMask (Once)
+Bigfoot
+	100.0 %
+		63.7 % (Once)
+			49.0 % 3x SasquachPelt (Once)
+			63.7 % 8x SasquachPelt (Once)
+		95.5 % (Once)
+			95.5 % 2x AnimalFat
+		96.8 % 1x YetiForrestMask (Once)
+		100.0 % (Once)
+			5.6 % 2x Roach1986PaintMask (Once)
+			11.1 % 2x RoachDefaultPaintMask (Once)
+			16.7 % 2x RoachDigiCamoMask (Once)
+			22.2 % 2x RoachDoubleStripeMask (Once)
+			27.8 % 2x RoachEyesMask (Once)
+			33.3 % 2x RoachGraffMask (Once)
+			38.9 % 2x GoatFlamesMask (Once)
+			44.4 % 2x GoatSideStripeMask (Once)
+			50.0 % 2x GoatSkullMask (Once)
+			55.6 % 2x GoatCamoMask (Once)
+			61.1 % 2x GoatFlatMask (Once)
+			66.7 % 2x GoatTwinStripesMask (Once)
+			72.2 % 2x GoatMazeMask (Once)
+			77.8 % 2x KangaAngelicaMask (Once)
+			83.3 % 2x KangaGrade80Mask (Once)
+			88.9 % 2x KangaRockettoMask (Once)
+			94.4 % 2x KangaEvaMask (Once)
+			100.0 % 2x KangaZebraTechMask (Once)
+AcrticShigi
+	100.0 %
+		64.9 % (Once)
+			64.9 % 1x ArcticPelt
+		97.4 % (Once)
+			97.4 % 1x FrozenRawSteak
+		98.7 % 1x ShigiArcticMask (Once)
+		99.4 % (Once)
+			5.5 % 2x Roach1986PaintMask (Once)
+			11.0 % 2x RoachDefaultPaintMask (Once)
+			16.6 % 2x RoachDigiCamoMask (Once)
+			22.1 % 2x RoachDoubleStripeMask (Once)
+			27.6 % 2x RoachEyesMask (Once)
+			33.1 % 2x RoachGraffMask (Once)
+			38.6 % 2x GoatFlamesMask (Once)
+			44.2 % 2x GoatSideStripeMask (Once)
+			49.7 % 2x GoatSkullMask (Once)
+			55.2 % 2x GoatCamoMask (Once)
+			60.7 % 2x GoatFlatMask (Once)
+			66.2 % 2x GoatTwinStripesMask (Once)
+			71.8 % 2x GoatMazeMask (Once)
+			77.3 % 2x KangaAngelicaMask (Once)
+			82.8 % 2x KangaGrade80Mask (Once)
+			88.3 % 2x KangaRockettoMask (Once)
+			93.8 % 2x KangaEvaMask (Once)
+			99.4 % 2x KangaZebraTechMask (Once)
+		100.0 % (Once)
+			2.7 % 1x Paint001 (Once)
+			5.4 % 1x Paint002 (Once)
+			8.1 % 1x Paint003 (Once)
+			10.8 % 1x Paint004 (Once)
+			13.5 % 1x Paint005 (Once)
+			16.2 % 1x Paint006 (Once)
+			18.9 % 1x Paint007 (Once)
+			21.6 % 1x Paint008 (Once)
+			24.3 % 1x Paint009 (Once)
+			27.0 % 1x Paint010 (Once)
+			29.7 % 1x Paint011 (Once)
+			32.4 % 1x Paint012 (Once)
+			35.1 % 1x Paint013 (Once)
+			37.8 % 1x Paint014 (Once)
+			40.5 % 1x Paint015 (Once)
+			43.2 % 1x Paint016 (Once)
+			45.9 % 1x Paint017 (Once)
+			48.6 % 1x Paint018 (Once)
+			51.4 % 1x Paint019 (Once)
+			54.1 % 1x Paint020 (Once)
+			56.8 % 1x Paint021 (Once)
+			59.5 % 1x Paint022 (Once)
+			62.2 % 1x Paint023 (Once)
+			64.9 % 1x Paint024 (Once)
+			67.6 % 1x Paint025 (Once)
+			70.3 % 1x Paint026 (Once)
+			73.0 % 1x Paint027 (Once)
+			75.7 % 1x Paint028 (Once)
+			78.4 % 1x Paint029 (Once)
+			81.1 % 1x Paint030 (Once)
+			83.8 % 1x Paint031 (Once)
+			86.5 % 1x Paint032 (Once)
+			89.2 % 1x Paint033 (Once)
+			91.9 % 1x Paint034 (Once)
+			94.6 % 1x Paint035 (Once)
+			97.3 % 1x Paint036 (Once)
+			100.0 % 1x Paint037 (Once)
+TropicalForrestShigi
+	100.0 %
+		64.9 % (Once)
+			50.0 % 3x Leather (Once)
+			64.9 % 8x Leather (Once)
+		97.4 % (Once)
+			97.4 % 1x AnimalTendon
+		98.7 % 1x ForrestShigiMask (Once)
+		99.4 % (Once)
+			5.5 % 2x Roach1986PaintMask (Once)
+			11.0 % 2x RoachDefaultPaintMask (Once)
+			16.6 % 2x RoachDigiCamoMask (Once)
+			22.1 % 2x RoachDoubleStripeMask (Once)
+			27.6 % 2x RoachEyesMask (Once)
+			33.1 % 2x RoachGraffMask (Once)
+			38.6 % 2x GoatFlamesMask (Once)
+			44.2 % 2x GoatSideStripeMask (Once)
+			49.7 % 2x GoatSkullMask (Once)
+			55.2 % 2x GoatCamoMask (Once)
+			60.7 % 2x GoatFlatMask (Once)
+			66.2 % 2x GoatTwinStripesMask (Once)
+			71.8 % 2x GoatMazeMask (Once)
+			77.3 % 2x KangaAngelicaMask (Once)
+			82.8 % 2x KangaGrade80Mask (Once)
+			88.3 % 2x KangaRockettoMask (Once)
+			93.8 % 2x KangaEvaMask (Once)
+			99.4 % 2x KangaZebraTechMask (Once)
+		100.0 % (Once)
+			2.7 % 1x Paint001 (Once)
+			5.4 % 1x Paint002 (Once)
+			8.1 % 1x Paint003 (Once)
+			10.8 % 1x Paint004 (Once)
+			13.5 % 1x Paint005 (Once)
+			16.2 % 1x Paint006 (Once)
+			18.9 % 1x Paint007 (Once)
+			21.6 % 1x Paint008 (Once)
+			24.3 % 1x Paint009 (Once)
+			27.0 % 1x Paint010 (Once)
+			29.7 % 1x Paint011 (Once)
+			32.4 % 1x Paint012 (Once)
+			35.1 % 1x Paint013 (Once)
+			37.8 % 1x Paint014 (Once)
+			40.5 % 1x Paint015 (Once)
+			43.2 % 1x Paint016 (Once)
+			45.9 % 1x Paint017 (Once)
+			48.6 % 1x Paint018 (Once)
+			51.4 % 1x Paint019 (Once)
+			54.1 % 1x Paint020 (Once)
+			56.8 % 1x Paint021 (Once)
+			59.5 % 1x Paint022 (Once)
+			62.2 % 1x Paint023 (Once)
+			64.9 % 1x Paint024 (Once)
+			67.6 % 1x Paint025 (Once)
+			70.3 % 1x Paint026 (Once)
+			73.0 % 1x Paint027 (Once)
+			75.7 % 1x Paint028 (Once)
+			78.4 % 1x Paint029 (Once)
+			81.1 % 1x Paint030 (Once)
+			83.8 % 1x Paint031 (Once)
+			86.5 % 1x Paint032 (Once)
+			89.2 % 1x Paint033 (Once)
+			91.9 % 1x Paint034 (Once)
+			94.6 % 1x Paint035 (Once)
+			97.3 % 1x Paint036 (Once)
+			100.0 % 1x Paint037 (Once)
+WolfShigi
+	100.0 %
+		64.9 % (Once)
+			50.0 % 3x Leather (Once)
+			64.9 % 8x Leather (Once)
+		97.4 % (Once)
+			97.4 % 1x AnimalTendon
+		98.7 % 1x ShigiWolfMask (Once)
+		99.4 % (Once)
+			5.5 % 2x Roach1986PaintMask (Once)
+			11.0 % 2x RoachDefaultPaintMask (Once)
+			16.6 % 2x RoachDigiCamoMask (Once)
+			22.1 % 2x RoachDoubleStripeMask (Once)
+			27.6 % 2x RoachEyesMask (Once)
+			33.1 % 2x RoachGraffMask (Once)
+			38.6 % 2x GoatFlamesMask (Once)
+			44.2 % 2x GoatSideStripeMask (Once)
+			49.7 % 2x GoatSkullMask (Once)
+			55.2 % 2x GoatCamoMask (Once)
+			60.7 % 2x GoatFlatMask (Once)
+			66.2 % 2x GoatTwinStripesMask (Once)
+			71.8 % 2x GoatMazeMask (Once)
+			77.3 % 2x KangaAngelicaMask (Once)
+			82.8 % 2x KangaGrade80Mask (Once)
+			88.3 % 2x KangaRockettoMask (Once)
+			93.8 % 2x KangaEvaMask (Once)
+			99.4 % 2x KangaZebraTechMask (Once)
+		100.0 % (Once)
+			2.7 % 1x Paint001 (Once)
+			5.4 % 1x Paint002 (Once)
+			8.1 % 1x Paint003 (Once)
+			10.8 % 1x Paint004 (Once)
+			13.5 % 1x Paint005 (Once)
+			16.2 % 1x Paint006 (Once)
+			18.9 % 1x Paint007 (Once)
+			21.6 % 1x Paint008 (Once)
+			24.3 % 1x Paint009 (Once)
+			27.0 % 1x Paint010 (Once)
+			29.7 % 1x Paint011 (Once)
+			32.4 % 1x Paint012 (Once)
+			35.1 % 1x Paint013 (Once)
+			37.8 % 1x Paint014 (Once)
+			40.5 % 1x Paint015 (Once)
+			43.2 % 1x Paint016 (Once)
+			45.9 % 1x Paint017 (Once)
+			48.6 % 1x Paint018 (Once)
+			51.4 % 1x Paint019 (Once)
+			54.1 % 1x Paint020 (Once)
+			56.8 % 1x Paint021 (Once)
+			59.5 % 1x Paint022 (Once)
+			62.2 % 1x Paint023 (Once)
+			64.9 % 1x Paint024 (Once)
+			67.6 % 1x Paint025 (Once)
+			70.3 % 1x Paint026 (Once)
+			73.0 % 1x Paint027 (Once)
+			75.7 % 1x Paint028 (Once)
+			78.4 % 1x Paint029 (Once)
+			81.1 % 1x Paint030 (Once)
+			83.8 % 1x Paint031 (Once)
+			86.5 % 1x Paint032 (Once)
+			89.2 % 1x Paint033 (Once)
+			91.9 % 1x Paint034 (Once)
+			94.6 % 1x Paint035 (Once)
+			97.3 % 1x Paint036 (Once)
+			100.0 % 1x Paint037 (Once)
+RadiationBor
+	100.0 %
+		64.9 % (Once)
+			50.0 % 3x Leather (Once)
+			64.9 % 8x Leather (Once)
+		97.4 % (Once)
+			97.4 % 1x AnimalTendon
+		98.7 % 1x BorRadMask (Once)
+		99.4 % (Once)
+			5.5 % 2x Roach1986PaintMask (Once)
+			11.0 % 2x RoachDefaultPaintMask (Once)
+			16.6 % 2x RoachDigiCamoMask (Once)
+			22.1 % 2x RoachDoubleStripeMask (Once)
+			27.6 % 2x RoachEyesMask (Once)
+			33.1 % 2x RoachGraffMask (Once)
+			38.6 % 2x GoatFlamesMask (Once)
+			44.2 % 2x GoatSideStripeMask (Once)
+			49.7 % 2x GoatSkullMask (Once)
+			55.2 % 2x GoatCamoMask (Once)
+			60.7 % 2x GoatFlatMask (Once)
+			66.2 % 2x GoatTwinStripesMask (Once)
+			71.8 % 2x GoatMazeMask (Once)
+			77.3 % 2x KangaAngelicaMask (Once)
+			82.8 % 2x KangaGrade80Mask (Once)
+			88.3 % 2x KangaRockettoMask (Once)
+			93.8 % 2x KangaEvaMask (Once)
+			99.4 % 2x KangaZebraTechMask (Once)
+		100.0 % (Once)
+			2.7 % 1x Paint001 (Once)
+			5.4 % 1x Paint002 (Once)
+			8.1 % 1x Paint003 (Once)
+			10.8 % 1x Paint004 (Once)
+			13.5 % 1x Paint005 (Once)
+			16.2 % 1x Paint006 (Once)
+			18.9 % 1x Paint007 (Once)
+			21.6 % 1x Paint008 (Once)
+			24.3 % 1x Paint009 (Once)
+			27.0 % 1x Paint010 (Once)
+			29.7 % 1x Paint011 (Once)
+			32.4 % 1x Paint012 (Once)
+			35.1 % 1x Paint013 (Once)
+			37.8 % 1x Paint014 (Once)
+			40.5 % 1x Paint015 (Once)
+			43.2 % 1x Paint016 (Once)
+			45.9 % 1x Paint017 (Once)
+			48.6 % 1x Paint018 (Once)
+			51.4 % 1x Paint019 (Once)
+			54.1 % 1x Paint020 (Once)
+			56.8 % 1x Paint021 (Once)
+			59.5 % 1x Paint022 (Once)
+			62.2 % 1x Paint023 (Once)
+			64.9 % 1x Paint024 (Once)
+			67.6 % 1x Paint025 (Once)
+			70.3 % 1x Paint026 (Once)
+			73.0 % 1x Paint027 (Once)
+			75.7 % 1x Paint028 (Once)
+			78.4 % 1x Paint029 (Once)
+			81.1 % 1x Paint030 (Once)
+			83.8 % 1x Paint031 (Once)
+			86.5 % 1x Paint032 (Once)
+			89.2 % 1x Paint033 (Once)
+			91.9 % 1x Paint034 (Once)
+			94.6 % 1x Paint035 (Once)
+			97.3 % 1x Paint036 (Once)
+			100.0 % 1x Paint037 (Once)
+CommonLootCrate
+	100.0 %
+		7.3 % (Once)
+			0.2 % 1x Paint001 (Once)
+			0.4 % 1x Paint002 (Once)
+			0.6 % 1x Paint003 (Once)
+			0.8 % 1x Paint004 (Once)
+			1.0 % 1x Paint005 (Once)
+			1.2 % 1x Paint006 (Once)
+			1.4 % 1x Paint007 (Once)
+			1.6 % 1x Paint008 (Once)
+			1.8 % 1x Paint009 (Once)
+			2.0 % 1x Paint010 (Once)
+			2.2 % 1x Paint011 (Once)
+			2.4 % 1x Paint012 (Once)
+			2.6 % 1x Paint013 (Once)
+			2.8 % 1x Paint014 (Once)
+			2.9 % 1x Paint015 (Once)
+			3.1 % 1x Paint016 (Once)
+			3.3 % 1x Paint017 (Once)
+			3.5 % 1x Paint018 (Once)
+			3.7 % 1x Paint019 (Once)
+			3.9 % 1x Paint020 (Once)
+			4.1 % 1x Paint021 (Once)
+			4.3 % 1x Paint022 (Once)
+			4.5 % 1x Paint023 (Once)
+			4.7 % 1x Paint024 (Once)
+			4.9 % 1x Paint025 (Once)
+			5.1 % 1x Paint026 (Once)
+			5.3 % 1x Paint027 (Once)
+			5.5 % 1x Paint028 (Once)
+			5.7 % 1x Paint029 (Once)
+			5.9 % 1x Paint030 (Once)
+			6.1 % 1x Paint031 (Once)
+			6.3 % 1x Paint032 (Once)
+			6.5 % 1x Paint033 (Once)
+			6.7 % 1x Paint034 (Once)
+			6.9 % 1x Paint035 (Once)
+			7.1 % 1x Paint036 (Once)
+			7.3 % 1x Paint037 (Once)
+		8.0 % (Once)
+			0.4 % 2x Roach1986PaintMask (Once)
+			0.9 % 2x RoachDefaultPaintMask (Once)
+			1.3 % 2x RoachDigiCamoMask (Once)
+			1.8 % 2x RoachDoubleStripeMask (Once)
+			2.2 % 2x RoachEyesMask (Once)
+			2.7 % 2x RoachGraffMask (Once)
+			3.1 % 2x GoatFlamesMask (Once)
+			3.6 % 2x GoatSideStripeMask (Once)
+			4.0 % 2x GoatSkullMask (Once)
+			4.4 % 2x GoatCamoMask (Once)
+			4.9 % 2x GoatFlatMask (Once)
+			5.3 % 2x GoatTwinStripesMask (Once)
+			5.8 % 2x GoatMazeMask (Once)
+			6.2 % 2x KangaAngelicaMask (Once)
+			6.7 % 2x KangaGrade80Mask (Once)
+			7.1 % 2x KangaRockettoMask (Once)
+			7.6 % 2x KangaEvaMask (Once)
+			8.0 % 2x KangaZebraTechMask (Once)
+		9.3 % 1x DetonatorCap (Once)
+		23.9 % 1x Arrow (Rnd 5) (Once)
+		38.4 % 1x ShotgunShell (Rnd 7) (Once)
+		52.9 % 1x Bullet (Rnd 4) (Once)
+		67.5 % 1x PistolBullet (Rnd 8) (Once)
+		82.0 % 1x ARBullet (Rnd 15) (Once)
+		83.5 % 1x Dynamite (Rnd 4) (Once)
+		84.2 % 1x DriftLargeWheel (Once)
+		87.1 % 1x GoatWheelNipples (Once)
+		87.9 % 1x LargeTractorWheel (Once)
+		88.6 % 1x SmallCartWheel (Once)
+		89.3 % 1x TorettoWheel (Once)
+		90.0 % 1x ManglerWheel (Once)
+		90.8 % 1x KangaKnobblerWheel (Once)
+		91.5 % 1x KangaPaddlinWheel (Once)
+		92.2 % 1x KangaSawWheel (Once)
+		92.4 % 1x KangaDamagedEngine (Once)
+		92.5 % 1x KangaStandardEngine (Once)
+		92.6 % 1x KangaPowerfulEngine (Once)
+		93.3 % 1x KangaRoadGearbox (Once)
+		94.0 % 1x KangaOffroadGearbox (Once)
+		94.8 % 1x GoatRoadGearbox (Once)
+		96.6 % 1x GoatStockGearbox (Once)
+		97.3 % 1x RoachRoadGearbox (Once)
+		98.0 % 1x RoachStockGearbox (Once)
+		98.2 % 1x WeakEngine (Once)
+		98.3 % 1x MediumEngine (Once)
+		98.4 % 1x PowerfullEngine (Once)
+		98.6 % 1x DamagedEngine (Once)
+		98.9 % 1x GoatWeakEngine (Once)
+		99.3 % 1x GoatMediumEngine (Once)
+		99.6 % 1x GoatPowerfullEngine (Once)
+		100.0 % 1x GoatDamagedEngine (Once)
+GoatLootCrate
+	100.0 %
+		46.6 % (Once)
+			1.3 % 1x Paint001 (Once)
+			2.5 % 1x Paint002 (Once)
+			3.8 % 1x Paint003 (Once)
+			5.0 % 1x Paint004 (Once)
+			6.3 % 1x Paint005 (Once)
+			7.6 % 1x Paint006 (Once)
+			8.8 % 1x Paint007 (Once)
+			10.1 % 1x Paint008 (Once)
+			11.3 % 1x Paint009 (Once)
+			12.6 % 1x Paint010 (Once)
+			13.9 % 1x Paint011 (Once)
+			15.1 % 1x Paint012 (Once)
+			16.4 % 1x Paint013 (Once)
+			17.6 % 1x Paint014 (Once)
+			18.9 % 1x Paint015 (Once)
+			20.2 % 1x Paint016 (Once)
+			21.4 % 1x Paint017 (Once)
+			22.7 % 1x Paint018 (Once)
+			23.9 % 1x Paint019 (Once)
+			25.2 % 1x Paint020 (Once)
+			26.5 % 1x Paint021 (Once)
+			27.7 % 1x Paint022 (Once)
+			29.0 % 1x Paint023 (Once)
+			30.2 % 1x Paint024 (Once)
+			31.5 % 1x Paint025 (Once)
+			32.8 % 1x Paint026 (Once)
+			34.0 % 1x Paint027 (Once)
+			35.3 % 1x Paint028 (Once)
+			36.5 % 1x Paint029 (Once)
+			37.8 % 1x Paint030 (Once)
+			39.1 % 1x Paint031 (Once)
+			40.3 % 1x Paint032 (Once)
+			41.6 % 1x Paint033 (Once)
+			42.8 % 1x Paint034 (Once)
+			44.1 % 1x Paint035 (Once)
+			45.4 % 1x Paint036 (Once)
+			46.6 % 1x Paint037 (Once)
+		51.3 % (Once)
+			2.8 % 2x Roach1986PaintMask (Once)
+			5.7 % 2x RoachDefaultPaintMask (Once)
+			8.5 % 2x RoachDigiCamoMask (Once)
+			11.4 % 2x RoachDoubleStripeMask (Once)
+			14.2 % 2x RoachEyesMask (Once)
+			17.1 % 2x RoachGraffMask (Once)
+			19.9 % 2x GoatFlamesMask (Once)
+			22.8 % 2x GoatSideStripeMask (Once)
+			25.6 % 2x GoatSkullMask (Once)
+			28.5 % 2x GoatCamoMask (Once)
+			31.3 % 2x GoatFlatMask (Once)
+			34.2 % 2x GoatTwinStripesMask (Once)
+			37.0 % 2x GoatMazeMask (Once)
+			39.9 % 2x KangaAngelicaMask (Once)
+			42.7 % 2x KangaGrade80Mask (Once)
+			45.6 % 2x KangaRockettoMask (Once)
+			48.4 % 2x KangaEvaMask (Once)
+			51.3 % 2x KangaZebraTechMask (Once)
+		69.9 % 1x GoatWheelNipples (Once)
+		74.6 % 1x ManglerWheel (Once)
+		79.3 % 1x GoatRoadGearbox (Once)
+		90.9 % 1x GoatStockGearbox (Once)
+		93.2 % 1x GoatWeakEngine (Once)
+		95.6 % 1x GoatMediumEngine (Once)
+		97.7 % 1x GoatPowerfullEngine (Once)
+		100.0 % 1x GoatDamagedEngine (Once)
+RoachLootCrate
+	100.0 %
+		56.3 % (Once)
+			1.5 % 1x Paint001 (Once)
+			3.0 % 1x Paint002 (Once)
+			4.6 % 1x Paint003 (Once)
+			6.1 % 1x Paint004 (Once)
+			7.6 % 1x Paint005 (Once)
+			9.1 % 1x Paint006 (Once)
+			10.7 % 1x Paint007 (Once)
+			12.2 % 1x Paint008 (Once)
+			13.7 % 1x Paint009 (Once)
+			15.2 % 1x Paint010 (Once)
+			16.7 % 1x Paint011 (Once)
+			18.3 % 1x Paint012 (Once)
+			19.8 % 1x Paint013 (Once)
+			21.3 % 1x Paint014 (Once)
+			22.8 % 1x Paint015 (Once)
+			24.4 % 1x Paint016 (Once)
+			25.9 % 1x Paint017 (Once)
+			27.4 % 1x Paint018 (Once)
+			28.9 % 1x Paint019 (Once)
+			30.5 % 1x Paint020 (Once)
+			32.0 % 1x Paint021 (Once)
+			33.5 % 1x Paint022 (Once)
+			35.0 % 1x Paint023 (Once)
+			36.5 % 1x Paint024 (Once)
+			38.1 % 1x Paint025 (Once)
+			39.6 % 1x Paint026 (Once)
+			41.1 % 1x Paint027 (Once)
+			42.6 % 1x Paint028 (Once)
+			44.2 % 1x Paint029 (Once)
+			45.7 % 1x Paint030 (Once)
+			47.2 % 1x Paint031 (Once)
+			48.7 % 1x Paint032 (Once)
+			50.2 % 1x Paint033 (Once)
+			51.8 % 1x Paint034 (Once)
+			53.3 % 1x Paint035 (Once)
+			54.8 % 1x Paint036 (Once)
+			56.3 % 1x Paint037 (Once)
+		62.0 % (Once)
+			3.4 % 2x Roach1986PaintMask (Once)
+			6.9 % 2x RoachDefaultPaintMask (Once)
+			10.3 % 2x RoachDigiCamoMask (Once)
+			13.8 % 2x RoachDoubleStripeMask (Once)
+			17.2 % 2x RoachEyesMask (Once)
+			20.7 % 2x RoachGraffMask (Once)
+			24.1 % 2x GoatFlamesMask (Once)
+			27.5 % 2x GoatSideStripeMask (Once)
+			31.0 % 2x GoatSkullMask (Once)
+			34.4 % 2x GoatCamoMask (Once)
+			37.9 % 2x GoatFlatMask (Once)
+			41.3 % 2x GoatTwinStripesMask (Once)
+			44.8 % 2x GoatMazeMask (Once)
+			48.2 % 2x KangaAngelicaMask (Once)
+			51.6 % 2x KangaGrade80Mask (Once)
+			55.1 % 2x KangaRockettoMask (Once)
+			58.5 % 2x KangaEvaMask (Once)
+			62.0 % 2x KangaZebraTechMask (Once)
+		67.6 % 1x DriftLargeWheel (Once)
+		73.2 % 1x LargeTractorWheel (Once)
+		78.9 % 1x SmallCartWheel (Once)
+		84.5 % 1x TorettoWheel (Once)
+		90.1 % 1x RoachRoadGearbox (Once)
+		95.8 % 1x RoachStockGearbox (Once)
+		97.2 % 1x WeakEngine (Once)
+		98.0 % 1x MediumEngine (Once)
+		98.6 % 1x PowerfullEngine (Once)
+		100.0 % 1x DamagedEngine (Once)
+KangaLootCrate
+	100.0 %
+		60.1 % (Once)
+			1.6 % 1x Paint001 (Once)
+			3.2 % 1x Paint002 (Once)
+			4.9 % 1x Paint003 (Once)
+			6.5 % 1x Paint004 (Once)
+			8.1 % 1x Paint005 (Once)
+			9.7 % 1x Paint006 (Once)
+			11.4 % 1x Paint007 (Once)
+			13.0 % 1x Paint008 (Once)
+			14.6 % 1x Paint009 (Once)
+			16.2 % 1x Paint010 (Once)
+			17.9 % 1x Paint011 (Once)
+			19.5 % 1x Paint012 (Once)
+			21.1 % 1x Paint013 (Once)
+			22.7 % 1x Paint014 (Once)
+			24.3 % 1x Paint015 (Once)
+			26.0 % 1x Paint016 (Once)
+			27.6 % 1x Paint017 (Once)
+			29.2 % 1x Paint018 (Once)
+			30.8 % 1x Paint019 (Once)
+			32.5 % 1x Paint020 (Once)
+			34.1 % 1x Paint021 (Once)
+			35.7 % 1x Paint022 (Once)
+			37.3 % 1x Paint023 (Once)
+			39.0 % 1x Paint024 (Once)
+			40.6 % 1x Paint025 (Once)
+			42.2 % 1x Paint026 (Once)
+			43.8 % 1x Paint027 (Once)
+			45.5 % 1x Paint028 (Once)
+			47.1 % 1x Paint029 (Once)
+			48.7 % 1x Paint030 (Once)
+			50.3 % 1x Paint031 (Once)
+			51.9 % 1x Paint032 (Once)
+			53.6 % 1x Paint033 (Once)
+			55.2 % 1x Paint034 (Once)
+			56.8 % 1x Paint035 (Once)
+			58.4 % 1x Paint036 (Once)
+			60.1 % 1x Paint037 (Once)
+		66.1 % (Once)
+			3.7 % 2x Roach1986PaintMask (Once)
+			7.3 % 2x RoachDefaultPaintMask (Once)
+			11.0 % 2x RoachDigiCamoMask (Once)
+			14.7 % 2x RoachDoubleStripeMask (Once)
+			18.4 % 2x RoachEyesMask (Once)
+			22.0 % 2x RoachGraffMask (Once)
+			25.7 % 2x GoatFlamesMask (Once)
+			29.4 % 2x GoatSideStripeMask (Once)
+			33.0 % 2x GoatSkullMask (Once)
+			36.7 % 2x GoatCamoMask (Once)
+			40.4 % 2x GoatFlatMask (Once)
+			44.0 % 2x GoatTwinStripesMask (Once)
+			47.7 % 2x GoatMazeMask (Once)
+			51.4 % 2x KangaAngelicaMask (Once)
+			55.1 % 2x KangaGrade80Mask (Once)
+			58.7 % 2x KangaRockettoMask (Once)
+			62.4 % 2x KangaEvaMask (Once)
+			66.1 % 2x KangaZebraTechMask (Once)
+		72.1 % 1x KangaKnobblerWheel (Once)
+		78.1 % 1x KangaPaddlinWheel (Once)
+		84.1 % 1x KangaSawWheel (Once)
+		85.0 % 1x KangaDamagedEngine (Once)
+		86.5 % 1x KangaStandardEngine (Once)
+		88.0 % 1x KangaPowerfulEngine (Once)
+		94.0 % 1x KangaRoadGearbox (Once)
+		100.0 % 1x KangaOffroadGearbox (Once)
+MedusaVine
+	100.0 %
+		100.0 %
+			100.0 % 2x Wood (Rnd 4)
+
+14:52 [Warning] Calling 'cmdLootStats' on 'LootConfig v1.0.3' took 217ms
+14:53 [Info] [LootConfig] Loot config reloaded.
+15:13 [Error] Error while compiling: GatherConfig.cs(163,25): error CS0246: The type or namespace name `ItemAmount' could not be found. Are you missing an assembly reference?
+15:13 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+15:13 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+15:13 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+15:13 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+15:13 [Info] [Meteors] Destroying meteors
+15:13 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+15:13 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+15:13 [Info] Loading Oxide Core v2.0.3393...
+15:13 [Info] Loading extensions...
+15:13 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+15:13 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+15:13 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+15:13 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+15:13 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+15:13 [Info] Using Covalence provider for game 'Hurtworld'
+15:13 [Info] Loading plugins...
+15:13 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+15:13 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+15:14 [Info] C4Logger, HWClans, Kits, LootConfig, Meteors and SpawnConfig were compiled successfully in 1917ms
+15:14 [Error] Error while compiling: GatherConfig.cs(163,25): error CS0246: The type or namespace name `ItemAmount' could not be found. Are you missing an assembly reference?
+15:14 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+15:14 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+15:14 [Info] Loaded plugin Kits v1.0.4 by Reneb
+15:14 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+15:14 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+15:14 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+15:14 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+15:21 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+15:21 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+15:21 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+15:21 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+15:21 [Info] [Meteors] Destroying meteors
+15:21 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+15:21 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+15:21 [Info] Loading Oxide Core v2.0.3393...
+15:21 [Info] Loading extensions...
+15:21 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+15:21 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+15:21 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+15:21 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+15:21 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+15:21 [Info] Using Covalence provider for game 'Hurtworld'
+15:21 [Info] Loading plugins...
+15:21 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+15:21 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+15:21 [Info] C4Logger, HWClans, Kits, LootConfig, Meteors and SpawnConfig were compiled successfully in 1871ms
+15:21 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+15:21 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+15:21 [Info] Loaded plugin Kits v1.0.4 by Reneb
+15:21 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+15:21 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+15:21 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+15:22 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+15:22 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+15:22 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+15:22 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+15:22 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+15:22 [Info] [Meteors] Destroying meteors
+15:22 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+15:22 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+15:22 [Info] Loading Oxide Core v2.0.3393...
+15:22 [Info] Loading extensions...
+15:22 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+15:22 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+15:22 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+15:22 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+15:22 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+15:22 [Info] Using Covalence provider for game 'Hurtworld'
+15:22 [Info] Loading plugins...
+15:22 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+15:22 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+15:22 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 1850ms
+15:22 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+15:22 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+15:22 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+15:22 [Info] Loaded plugin Kits v1.0.4 by Reneb
+15:22 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+15:22 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+15:22 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+15:22 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+15:23 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+15:27 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: hi
+15:52 [Info] [LootConfig] Loot config reloaded.
+15:52 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+15:52 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+15:52 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+15:52 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+15:52 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+15:52 [Info] [Meteors] Destroying meteors
+15:52 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+15:52 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+15:52 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+15:52 [Info] Loading Oxide Core v2.0.3393...
+15:52 [Info] Loading extensions...
+15:52 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+15:52 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+15:52 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+15:52 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+15:52 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+15:52 [Info] Using Covalence provider for game 'Hurtworld'
+15:52 [Info] Loading plugins...
+15:52 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+15:52 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+15:52 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 1960ms
+15:52 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+15:52 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+15:52 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+15:52 [Info] Loaded plugin Kits v1.0.4 by Reneb
+15:52 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+15:52 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+15:52 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+15:52 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+15:53 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+15:57 [Info] [LootConfig] Loot config reloaded.
+16:14 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+16:14 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+16:14 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+16:14 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+16:14 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+16:14 [Info] [Meteors] Destroying meteors
+16:14 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+16:14 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+16:14 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+18:46 [Info] Loading Oxide Core v2.0.3393...
+18:46 [Info] Loading extensions...
+18:46 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+18:46 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+18:46 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+18:46 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+18:46 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+18:46 [Info] Using Covalence provider for game 'Hurtworld'
+18:46 [Info] Loading plugins...
+18:46 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+18:46 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+18:46 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 2096ms
+18:46 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+18:46 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+18:46 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+18:46 [Info] Loaded plugin Kits v1.0.4 by Reneb
+18:46 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+18:46 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+18:46 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+18:46 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+18:46 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+19:04 [Info] LootChests was compiled successfully in 1763ms
+19:04 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+19:04 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+19:04 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+19:04 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+19:04 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+19:04 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+19:04 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+19:04 [Info] [Meteors] Destroying meteors
+19:04 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+19:04 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+19:04 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+19:04 [Info] [LootChests] Cleaning up spawned objects...
+19:04 [Info] [LootChests] Done
+19:04 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+19:04 [Info] Loading Oxide Core v2.0.3393...
+19:04 [Info] Loading extensions...
+19:04 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+19:04 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+19:04 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+19:04 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+19:04 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+19:04 [Info] Using Covalence provider for game 'Hurtworld'
+19:04 [Info] Loading plugins...
+19:04 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+19:04 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+19:04 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 1888ms
+19:04 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+19:04 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+19:04 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+19:04 [Info] Loaded plugin Kits v1.0.4 by Reneb
+19:04 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+19:04 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+19:04 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+19:04 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+19:04 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+19:05 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+19:05 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+19:26 [Info] [HWClans] [BЯZП]CORREIA: serve tem kit?
+19:50 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+19:50 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+19:50 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+19:50 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+19:50 [Info] [LootChests] Cleaning up spawned objects...
+19:50 [Info] [LootChests] Done
+19:50 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+19:50 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+19:50 [Info] [Meteors] Destroying meteors
+19:50 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+19:50 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+19:50 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+19:50 [Info] Loading Oxide Core v2.0.3393...
+19:50 [Info] Loading extensions...
+19:50 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+19:50 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+19:50 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+19:50 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+19:50 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+19:50 [Info] Using Covalence provider for game 'Hurtworld'
+19:50 [Info] Loading plugins...
+19:50 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+19:50 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+19:50 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 1934ms
+19:50 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+19:50 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+19:50 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+19:50 [Info] Loaded plugin Kits v1.0.4 by Reneb
+19:50 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+19:50 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+19:50 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+19:50 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+19:50 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+19:51 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+19:51 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+19:52 [Error] Failed to call hook 'cmdKit' on plugin 'Kits v1.0.4' (KeyNotFoundException: The given key was not present in the dictionary.)
+19:52 [Stacktrace]   at System.Collections.Generic.Dictionary`2[System.UInt64,System.String].get_Item (UInt64 key) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.cmdKit (.PlayerSession session, System.String command, System.String[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+20:03 [Error] Failed to call hook 'cmdKit' on plugin 'Kits v1.0.4' (FormatException: Input string was not in the correct format)
+20:03 [Stacktrace]   at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.cmdKit (.PlayerSession session, System.String command, System.String[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+20:04 [Info] [HWClans] [DeadNation] [S.O.H] - Titan: kit inicial
+20:07 [Error] Failed to call hook 'cmdKit' on plugin 'Kits v1.0.4' (FormatException: Input string was not in the correct format)
+20:07 [Stacktrace]   at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.cmdKit (.PlayerSession session, System.String command, System.String[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+20:15 [Error] Failed to call hook 'cmdKit' on plugin 'Kits v1.0.4' (FormatException: Input string was not in the correct format)
+20:15 [Stacktrace]   at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.cmdKit (.PlayerSession session, System.String command, System.String[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+20:22 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+20:22 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:22 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+20:22 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+20:22 [Info] [LootChests] Cleaning up spawned objects...
+20:22 [Info] [LootChests] Done
+20:22 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+20:22 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+20:22 [Info] [Meteors] Destroying meteors
+20:22 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+20:22 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:22 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+20:22 [Info] Loading Oxide Core v2.0.3393...
+20:22 [Info] Loading extensions...
+20:22 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+20:22 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+20:22 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+20:22 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+20:22 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+20:22 [Info] Using Covalence provider for game 'Hurtworld'
+20:22 [Info] Loading plugins...
+20:22 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+20:22 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+20:22 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 1969ms
+20:22 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+20:22 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:22 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+20:22 [Info] Loaded plugin Kits v1.0.4 by Reneb
+20:22 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+20:22 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+20:22 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+20:22 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:22 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+20:23 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+20:23 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+20:28 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+20:28 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:28 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+20:28 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+20:28 [Info] [LootChests] Cleaning up spawned objects...
+20:28 [Info] [LootChests] Done
+20:28 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+20:28 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+20:28 [Info] [Meteors] Destroying meteors
+20:28 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+20:28 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:28 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+20:28 [Info] Loading Oxide Core v2.0.3393...
+20:28 [Info] Loading extensions...
+20:28 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+20:28 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+20:28 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+20:28 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+20:28 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+20:28 [Info] Using Covalence provider for game 'Hurtworld'
+20:28 [Info] Loading plugins...
+20:28 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+20:28 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+20:28 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 2168ms
+20:28 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+20:28 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:28 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+20:28 [Info] Loaded plugin Kits v1.0.4 by Reneb
+20:28 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+20:28 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+20:28 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+20:28 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:28 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+20:29 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+20:29 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+20:30 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+20:30 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:30 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+20:30 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+20:30 [Info] [LootChests] Cleaning up spawned objects...
+20:30 [Info] [LootChests] Done
+20:30 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+20:30 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+20:30 [Info] [Meteors] Destroying meteors
+20:30 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+20:30 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:30 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+20:30 [Info] Loading Oxide Core v2.0.3393...
+20:30 [Info] Loading extensions...
+20:30 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+20:30 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+20:30 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+20:30 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+20:30 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+20:30 [Info] Using Covalence provider for game 'Hurtworld'
+20:30 [Info] Loading plugins...
+20:30 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+20:30 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+20:30 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 2212ms
+20:30 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+20:30 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:30 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+20:30 [Info] Loaded plugin Kits v1.0.4 by Reneb
+20:30 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+20:30 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+20:30 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+20:30 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:30 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+20:31 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+20:31 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+20:32 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+20:32 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:32 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+20:32 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+20:32 [Info] [LootChests] Cleaning up spawned objects...
+20:32 [Info] [LootChests] Done
+20:32 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+20:32 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+20:32 [Info] [Meteors] Destroying meteors
+20:32 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+20:32 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:32 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+20:33 [Info] Loading Oxide Core v2.0.3393...
+20:33 [Info] Loading extensions...
+20:33 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+20:33 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+20:33 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+20:33 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+20:33 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+20:33 [Info] Using Covalence provider for game 'Hurtworld'
+20:33 [Info] Loading plugins...
+20:33 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+20:33 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+20:33 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage and SpawnConfig were compiled successfully in 2086ms
+20:33 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+20:33 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+20:33 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+20:33 [Info] Loaded plugin Kits v1.0.4 by Reneb
+20:33 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+20:33 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+20:33 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+20:33 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+20:33 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+20:33 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+20:33 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+20:36 [Error] Failed to call hook 'cmdKit' on plugin 'Kits v1.0.4' (KeyNotFoundException: The given key was not present in the dictionary.)
+20:36 [Stacktrace]   at System.Collections.Generic.Dictionary`2[System.UInt64,System.String].get_Item (UInt64 key) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.cmdKit (.PlayerSession session, System.String command, System.String[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.Kits.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (HookMethod method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00000] in <filename unknown>:0 
+23:05 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+23:05 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+23:05 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+23:05 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+23:05 [Info] [LootChests] Cleaning up spawned objects...
+23:05 [Info] [LootChests] Done
+23:05 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+23:05 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+23:05 [Info] [Meteors] Destroying meteors
+23:05 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+23:05 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+23:05 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+23:06 [Info] Loading Oxide Core v2.0.3393...
+23:06 [Info] Loading extensions...
+23:06 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+23:06 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+23:06 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+23:06 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+23:06 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+23:06 [Info] Using Covalence provider for game 'Hurtworld'
+23:06 [Info] Loading plugins...
+23:06 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+23:06 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+23:06 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage, SpawnConfig and Stacksize were compiled successfully in 1851ms
+23:06 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+23:06 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+23:06 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+23:06 [Info] Loaded plugin Kits v1.0.4 by Reneb
+23:06 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+23:06 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+23:06 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+23:06 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+23:06 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+23:06 [Info] Loaded plugin Stacksize v1.2.2 by Noviets
+23:06 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+23:06 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
+23:21 [Info] Unloaded plugin C4Logger v1.2.1 by austinv900
+23:21 [Info] Unloaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+23:21 [Info] Unloaded plugin HWClans v1.3.4 by SouZa
+23:21 [Info] Unloaded plugin Kits v1.0.4 by Reneb
+23:21 [Info] [LootChests] Cleaning up spawned objects...
+23:21 [Info] [LootChests] Done
+23:21 [Info] Unloaded plugin LootChests v1.3.1 by Noviets
+23:21 [Info] Unloaded plugin LootConfig v1.0.3 by Nogrod
+23:21 [Info] [Meteors] Destroying meteors
+23:21 [Info] Unloaded plugin Meteors v1.1.3 by Smeag
+23:21 [Info] Unloaded plugin PrivateMessage v1.2.0 by Lizzaran
+23:21 [Info] Unloaded plugin SpawnConfig v1.0.4 by Nogrod
+23:21 [Info] Unloaded plugin Stacksize v1.2.2 by Noviets
+23:21 [Info] Loading Oxide Core v2.0.3393...
+23:21 [Info] Loading extensions...
+23:21 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+23:21 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+23:21 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+23:21 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+23:21 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+23:21 [Info] Using Covalence provider for game 'Hurtworld'
+23:21 [Info] Loading plugins...
+23:21 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+23:21 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+23:22 [Info] C4Logger, CustomDeathMessages, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage, SpawnConfig and Stacksize were compiled successfully in 1851ms
+23:22 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+23:22 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+23:22 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+23:22 [Info] Loaded plugin Kits v1.0.4 by Reneb
+23:22 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+23:22 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+23:22 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+23:22 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+23:22 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+23:22 [Info] Loaded plugin Stacksize v1.2.2 by Noviets
+23:22 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+23:22 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests

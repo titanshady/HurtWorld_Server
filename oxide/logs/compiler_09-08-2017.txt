@@ -1,0 +1,19 @@
+[SERVER v1.0.24] Started as service
+[SERVER v1.0.24] Running as service
+[SERVER v1.0.24] Got Message: Ready
+[SERVER v1.0.24] Got Message: Compile
+[SERVER v1.0.24] Console: CustomDeathMessages.cs(19,14): warning CS0114: `Oxide.Plugins.CustomDeathMessages.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+C:\Users\Titan\Desktop\ArenA_Server\HurtWorld\Oxide.Core.dll (Location of the symbol related to previous warning)
+EasyStakes.cs(17,8): warning CS0114: `Oxide.Plugins.EasyStakes.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+C:\Users\Titan\Desktop\ArenA_Server\HurtWorld\Oxide.Core.dll (Location of the symbol related to previous warning)
+LootChests.cs(31,8): warning CS0114: `Oxide.Plugins.LootChests.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+C:\Users\Titan\Desktop\ArenA_Server\HurtWorld\Oxide.Core.dll (Location of the symbol related to previous warning)
+HWClans.cs(1379,71): warning CS0472: The result of comparing value type `Steamworks.CSteamID' with null is always `true'
+HWClans.cs(36,16): warning CS0169: The private field `Oxide.Plugins.HWClans.BetterChat' is never used
+Meteors.cs(145,20): warning CS0169: The private field `Oxide.Plugins.Meteors.MeteorInstance.startingPos' is never used
+Meteors.cs(147,18): warning CS0414: The private field `Oxide.Plugins.Meteors.MeteorInstance.distance' is assigned but its value is never used
+
+[SERVER v1.0.24] Got Message: Exit
+[SERVER v1.0.24] Exit received.
+[SERVER v1.0.24] Connection closed.
+[SERVER v1.0.24] Shutdown

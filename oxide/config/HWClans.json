@@ -1,0 +1,31 @@
+{
+  "ClanChatOutput": {
+    "Format": "{Prefix}{PlayerName}: {Message}",
+    "MessageColor": "white",
+    "PlayerNameColor": "#6495be",
+    "PrefixColor": "orange",
+    "PrefixText": "[Clan Message] "
+  },
+  "ClanPermissionByDefault": true,
+  "ClanTag": {
+    "AllowClanOwnerChangeColor": false,
+    "DefaultColor": "yellow",
+    "MaxLength": 5,
+    "ShowAbovePlayerHead": false,
+    "WordFilterContains": [
+      "admin"
+    ],
+    "WordFilterExact": [
+      "mod",
+      "m0d",
+      "moderator"
+    ]
+  },
+  "GlobalChatOutput": {
+    "FormatHasClan": "{ClanTag} {PlayerName}: {Message}",
+    "FormatNotClan": "{PlayerName}: {Message}",
+    "MessageColor": "white",
+    "PlayerNameColor": "#6495be"
+  },
+  "MaxMembers": 20
+}

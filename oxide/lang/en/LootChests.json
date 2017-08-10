@@ -1,0 +1,16 @@
+{
+  "NoPermission": "<color=#ffa500>LootChests</color>: You dont have Permission to do this! (LootChests.admin)",
+  "ItemAdded": "<color=#ffa500>LootChests</color>: Success Adding: <color=green>{Item}</color> Amount: <color=green>{Amount}</color>",
+  "ItemNotFound": "<color=#ffa500>LootChests</color>: That item isn't in the Item List.",
+  "SpawnFail": "Spawn stopped. Too many invalid spawn locations. Please check your spawn configs",
+  "ItemRemoved": "<color=#ffa500>LootChests</color>: {Item} has been successfully removed from the list.",
+  "ItemExists": "<color=#ffa500>LootChests</color>: That item is already in the Item List.",
+  "Error": "<color=#ffa500>LootChests</color>: Incorrect use of the command.",
+  "InvalidItem": "<color=#ffa500>LootChests</color>: That item does not exist, please check the ItemID",
+  "NoItems": "There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests",
+  "Save": "<color=#ffa500>LootChests</color>: Item List has been saved",
+  "Spawned": "<color=#ffa500>LootChests</color>: Loot Chests have Spawned",
+  "Despawned": "<color=#ffa500>LootChests</color>: Loot Chests have Despawned",
+  "NextSpawn": "<color=#ffa500>LootChests</color>: Next Spawn will occur in: {Time}",
+  "ChestSpawnError": "<color=#ffa500>LootChests</color>: Error: Unable to spawn the chest as it did not exist. If you have WeaponsCrateMod set to true, check that it is installed."
+}

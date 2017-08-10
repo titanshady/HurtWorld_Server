@@ -1,0 +1,19 @@
+[
+  {
+    "ownerID": {
+      "m_SteamID": 76561198084061499
+    },
+    "clanTag": "DeadNation",
+    "clanTagColor": "yellow",
+    "members": [
+      {
+        "name": "[S.O.H] - Titan",
+        "id": {
+          "m_SteamID": 76561198084061499
+        },
+        "isModerator": true
+      }
+    ],
+    "invites": []
+  }
+]

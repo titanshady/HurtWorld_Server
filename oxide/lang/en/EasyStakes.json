@@ -1,0 +1,9 @@
+{
+  "nopermission": "EasyStake: You don't have Permission to do this!",
+  "stakes": "EasyStakes: You're Authorized on {Count} stakes. You need {Amount} Amber to fill them all.",
+  "stakesfilled": "EasyStakes: Successfully filled {count} Ownership Stakes with {amount} Amber",
+  "noamber": "EasyStakes: You've ran out of Amber!",
+  "share": "EasyStakes: You've Authorized {Player} on {Amount} of your Ownership Stakes.",
+  "invalidplayer": "EasyStakes: Player not found.",
+  "invaliddistance": "EasyStakes: Distance must be a number."
+}

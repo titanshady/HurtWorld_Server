@@ -1,0 +1,5 @@
+{
+  "C4 - Used": "Player '{name}' used C4 at '{position}'.",
+  "C4 - Disconnected": "Player '{name}' disconnected with:\nC4: {c4Count}\nDetonator Cap: {dCapCount}",
+  "C4 - Connected": "Player '{name}' connected with {c4Count} x C4 and {dCapCount} x Detonator Cap."
+}

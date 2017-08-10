@@ -1,0 +1,33 @@
+16:02 [Info] Loading Oxide Core v2.0.3393...
+16:02 [Info] Loading extensions...
+16:02 [Info] Loaded extension CSharp v2.0.3393 by Oxide Team
+16:02 [Info] Loaded extension MySql v2.0.3393 by Oxide Team
+16:02 [Info] Loaded extension SQLite v2.0.3393 by Oxide Team
+16:02 [Info] Loaded extension Unity v2.0.3393 by Oxide Team
+16:02 [Info] Loaded extension Hurtworld v2.0.3393 by Oxide Team
+16:02 [Info] Using Covalence provider for game 'Hurtworld'
+16:02 [Info] Loading plugins...
+16:02 [Info] Loaded plugin Unity v2.0.3393 by Oxide Team
+16:02 [Info] Loaded plugin Hurtworld v2.0.3393 by Oxide Team
+16:02 [Info] C4Logger, CustomDeathMessages, EasyStakes, HWClans, Kits, LootChests, LootConfig, Meteors, PrivateMessage, SpawnConfig and Stacksize were compiled successfully in 2878ms
+16:02 [Info] Loaded plugin C4Logger v1.2.1 by austinv900
+16:02 [Info] Loaded plugin CustomDeathMessages v1.0.5 by Wil Simpson
+16:02 [Info] Loaded plugin EasyStakes v1.0.9 by Noviets
+16:02 [Info] Loaded plugin HWClans v1.3.4 by SouZa
+16:02 [Info] Loaded plugin Kits v1.0.4 by Reneb
+16:02 [Info] Loaded plugin LootChests v1.3.1 by Noviets
+16:02 [Info] Loaded plugin LootConfig v1.0.3 by Nogrod
+16:02 [Info] Loaded plugin Meteors v1.1.3 by Smeag
+16:02 [Info] Loaded plugin PrivateMessage v1.2.0 by Lizzaran
+16:02 [Info] Loaded plugin SpawnConfig v1.0.4 by Nogrod
+16:02 [Info] Loaded plugin Stacksize v1.2.2 by Noviets
+16:03 [Warning] Calling 'OnServerInitialized' on 'LootConfig v1.0.3' took 281ms
+16:03 [Info] [SpawnConfig] Config load failed: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path 'MultiSpawners.RoachSpawner.Spawns[0].Position', line 16, position 52.
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.PopulateVector3 (Newtonsoft.Json.JsonReader reader) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Converters.VectorConverter.ReadJson (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable (Newtonsoft.Json.JsonConverter converter, Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00000] in <filename unknown>:0 
+16:03 [Info] [LootChests] There's no items in the item list. Use the chat command: /lootchest add (ItemID) (Amount). Then: /reload LootChests
